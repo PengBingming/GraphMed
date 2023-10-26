@@ -4,8 +4,9 @@ A Shiny Web Application to Analyze and Visualize Medical Data
 R shiny;
 
 1. This application is free at website: https://shiny.chcmu.com.cn/graphmed/
-![interface](https://github.com/PengBingming/GraphMed/blob/main/graphmed/www/cover.jpg)
+
 2. The main panel scripts are saved on   GraphMed/graphmed/
+![interface](https://github.com/PengBingming/GraphMed/blob/main/graphmed/www/cover.jpg)
 
 3. All shiny tools are categorized into 3 components: Basic graphic, Clinic & Lab. tools and Omics data visualization. It's  panel scripts are saved on ggplot2, clinic, lab, rnaseq and enrich.
 
