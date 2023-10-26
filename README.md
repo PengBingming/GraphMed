@@ -9,7 +9,7 @@ R shiny;
 
 3. All shiny tools are categorized into 3 components: Basic graphic, Clinic & Lab. tools and Omics data visualization. It's  panel scripts are saved on ggplot2, clinic, lab, rnaseq and enrich.
 
-![tools]("../graphmed/www/tools.jpg")
+![tools]("[../graphmed/www/tools.jpg](https://github.com/PengBingming/GraphMed/blob/main/graphmed/www/tools.jpg)")
 
 4. Mutil-language file is placed in the tool.path/lang/info/ directory
 
