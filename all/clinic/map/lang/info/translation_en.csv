@@ -1,0 +1,67 @@
+cn,en
+炳明的 shiny 工具|Bingm's shinytools
+重医儿院,CHCMU
+炳明,Bingm
+中文,English
+欢迎使用 ShinyTools,Welcome to ShinyTools
+欢迎使用 GraphMed,Welcome to GraphMed
+医学数据可视化,Medical data visualization
+
+使用说明,Help
+联系我们,Contact us
+常见问题,FAQ
+
+微信,Wechat
+支付宝,Alipay
+
+单因素差异分析,One-way difference test
+简易森林图,Simple forestplot
+Logistics 回归,Logistics regression
+两变量相关性,Two-variable correlation
+中国地图,ChinaMap
+
+
+输入数据,Input data
+输入文件,Input file
+格式：.csv .xlsx .xls,Format: .csv .xlsx .xls
+参考数据,Smaple data
+计算结果,Result
+副孔(有/无),Subbore (with/without)
+有效位数,Significant digits
+拟合类型,Fitting mode
+拟合图形,Fitting plot
+下载图形,DownloadPlot
+下载图宽,width of plot
+下载图高,high of plot
+分辨率,res of plot
+
+开始画图,Start drawing
+地图数据,Map data
+数据来源：,Data sources: 
+
+
+图形标签,Graphic labels
+标题,title
+标题：,title:
+图例,legend
+标签字号,Label font size
+低值颜色,Low-value color
+中值颜色,Middle-value color
+高值颜色,High-value color
+经纬度线,Latitude and longitude lines
+
+标识列,Identity column
+标签,labels
+省份,province
+比例尺,scale
+指北针,north.arrow
+
+基础,basic
+轴标题,axis.title
+轴文本,axis.text
+轴刻度,axis.ticks
+图例标题,legend.title
+图例文本,legend.text
+
+标签颜色,label.color
+图例位置,legend.position

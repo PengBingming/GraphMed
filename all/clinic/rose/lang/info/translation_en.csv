@@ -1,0 +1,31 @@
+cn,en
+炳明的 shiny 工具|Bingm's shinytools
+重医儿院,CHCMU
+炳明,Bingm
+中文,English
+欢迎使用 ShinyTools,Welcome to ShinyTools
+欢迎使用 GraphMed,Welcome to GraphMed
+医学数据可视化,Medical data visualization
+
+图形,Plot
+
+输入数据,Input data
+输入文件,Input file
+格式：.csv .xlsx .xls,Format: .csv .xlsx .xls
+
+参考数据,Smaple data
+计算结果,Result
+
+下载图形,DownloadPlot
+下载图宽,width of plot
+下载图高,high of plot
+分辨率,res of plot
+
+标题,Title
+主题,Theme
+标签颜色,label color
+标签字号,label size
+高值颜色,high color
+低值颜色,low color
+界线颜色,line color
+玫瑰图,rose plot
