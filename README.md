@@ -24,6 +24,9 @@ download the GraphMed files from github to location.
 library("shiny")  
 runApp("...path/app")
 
+ggboxplot: runApp("./ggplot2/ggboxplot/app")  
+heatmap: runApp("./rnaseq/heatmap/app")  
+
 or  
 
 2、Run a Shiny application from a URL:  
