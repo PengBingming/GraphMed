@@ -22,8 +22,8 @@ If you were ready for needed packages, You may now run each shiny app with just 
 limma: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/limma")  
 heatmap: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/heatmap")  
 pca: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/pca")  
-reps: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/reps")
-expr: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/expr")
+reps: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/reps")  
+expr: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/expr")  
 geneID: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/geneID")  
 volcano: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/volcano")  
 
