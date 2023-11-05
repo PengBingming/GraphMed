@@ -1,7 +1,7 @@
 # GraphMed
 A Shiny Web Application to Analyze and Visualize Medical Data
 
-R shiny;
+### R shiny  
 
 1. This application is free at website: https://shiny.chcmu.com.cn/graphmed/  
 2. The main panel scripts are saved on   GraphMed/graphmed/
@@ -16,9 +16,9 @@ deseq2/exp.csv and group.csv for DESeq2
 heatmap/heatmap.csv for heatmap  
 ......
 
-If you were ready for needed packages, You may now run each shiny app with just one command in R:
+### If you were ready for needed packages, You may now run each shiny app with just one command in R:
 
-1、Run a Shiny application from download files:  
+#### 1、Run a Shiny application from download files:  
 download the GraphMed files from github to your own PC and set your Rstudio work directory at "...path/GraphMed/"  
 
 library("shiny")  
@@ -30,11 +30,11 @@ heatmap: runApp("./rnaseq/heatmap/app")
 
 or  
 
-2、Run a Shiny application from a URL:  
+#### 2、Run a Shiny application from a URL:  
 library(shiny)
 runGitHub("GraphMed", "PengBingming", subdir = "...path/")  
 
-1、RNA-seq: 
+1)、RNA-seq: 
 >deseq2: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/deseq2")  
 limma: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/limma")  
 heatmap: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/heatmap")  
@@ -44,7 +44,7 @@ expr: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/expr")
 geneID: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/geneID")  
 volcano: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/volcano")  
 
-2、Enrichment
+2)、Enrichment
 >kegg: runGitHub("GraphMed", "PengBingming", subdir = "enrich/kegg")  
 gseakegg: runGitHub("GraphMed", "PengBingming", subdir = "enrich/gseakegg")  
 go: runGitHub("GraphMed", "PengBingming", subdir = "enrich/go")  
@@ -52,7 +52,7 @@ gseago: runGitHub("GraphMed", "PengBingming", subdir = "enrich/gseago")
 ora: runGitHub("GraphMed", "PengBingming", subdir = "enrich/ora")  
 pathwaybubble: runGitHub("GraphMed", "PengBingming", subdir = "enrich/pathwaybubble")  
 
-3、Clinic
+3)、Clinic
 >anova: runGitHub("GraphMed", "PengBingming", subdir = "clinic/anova")  
 lm: runGitHub("GraphMed", "PengBingming", subdir = "clinic/lm")  
 logistics: runGitHub("GraphMed", "PengBingming", subdir = "clinic/logistics")  
@@ -64,7 +64,7 @@ map: runGitHub("GraphMed", "PengBingming", subdir = "clinic/map")
 provincemap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/provincemap")  
 worldmap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/worldmap")  
 
-4、Basic plot
+4)、Basic plot
 >ggbarplot: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggbarplot")  
 ggboxplot: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggboxplot")  
 ggdensity: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggdensity")  
@@ -75,6 +75,6 @@ ggggscatter: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggscatter")
 ggggviolin: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggviolin")  
 ggplot: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggplot")  
 
-5、Lab. tools
+5)、Lab. tools
 >elisa: runGitHub("GraphMed", "PengBingming", subdir = "lab/elisa")  
 qpcr: runGitHub("GraphMed", "PengBingming", subdir = "lab/qpcr")  
