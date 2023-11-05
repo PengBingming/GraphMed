@@ -17,7 +17,7 @@ heatmap/heatmap.csv for heatmap
 ......
 
 If you were ready for needed packages, You may now run each shiny app with just one command in R:
-
+1、RNA-seq: 
 >deseq2: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/deseq2")
 limma: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/limma")  
 heatmap: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/heatmap")  
@@ -27,6 +27,7 @@ expr: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/expr")
 geneID: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/geneID")  
 volcano: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/volcano")  
 
+2、Enrichment
 >kegg: runGitHub("GraphMed", "PengBingming", subdir = "enrich/kegg")  
 gseakegg: runGitHub("GraphMed", "PengBingming", subdir = "enrich/gseakegg")  
 go: runGitHub("GraphMed", "PengBingming", subdir = "enrich/go")  
@@ -34,6 +35,7 @@ gseago: runGitHub("GraphMed", "PengBingming", subdir = "enrich/gseago")
 ora: runGitHub("GraphMed", "PengBingming", subdir = "enrich/ora")  
 pathwaybubble: runGitHub("GraphMed", "PengBingming", subdir = "enrich/pathwaybubble")  
 
+3、Clinic
 >anova: runGitHub("GraphMed", "PengBingming", subdir = "clinic/anova")  
 forestplot: runGitHub("GraphMed", "PengBingming", subdir = "clinic/forestplot")  
 lm: runGitHub("GraphMed", "PengBingming", subdir = "clinic/lm")  
@@ -45,6 +47,7 @@ rose: runGitHub("GraphMed", "PengBingming", subdir = "clinic/rose")
 surv: runGitHub("GraphMed", "PengBingming", subdir = "clinic/surv")  
 worldmap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/worldmap")  
 
+4、Basic plot
 >ggbarplot: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggbarplot")  
 ggboxplot: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggboxplot")  
 ggdensity: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggdensity")  
@@ -55,5 +58,6 @@ ggggscatter: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggscatter")
 ggggviolin: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggviolin")  
 ggplot: runGitHub("GraphMed", "PengBingming", subdir = "ggplot2/ggplot")  
 
+5、Lab. tools
 >elisa: runGitHub("GraphMed", "PengBingming", subdir = "lab/elisa")  
 qpcr: runGitHub("GraphMed", "PengBingming", subdir = "lab/qpcr")  
