@@ -16,9 +16,11 @@ deseq2/exp.csv and group.csv for DESeq2
 heatmap/heatmap.csv for heatmap  
 ......
 
-### If you were ready for needed packages, You may now run each shiny app with just one command in R:
+### Run each shiny application Locally 
 
-#### 1、Run a Shiny application from download files:  
+If you were ready for needed packages, You may now run each shiny app with just one command in R:
+
+#### 1、Run each Shiny application from download files:  
 
 download the GraphMed files from github to your own PC and set your Rstudio work directory at "...path/GraphMed/"  
 
@@ -29,9 +31,7 @@ runApp("...path/app")
 heatmap: runApp("./rnaseq/heatmap/app")  
 ......
 
-or  
-
-#### 2、Run a Shiny application from a URL:  
+#### 2、Run each Shiny application from a URL:  
 
 library(shiny)
 runGitHub("GraphMed", "PengBingming", subdir = "...path/")  
