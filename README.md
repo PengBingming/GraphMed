@@ -38,7 +38,7 @@ pathwaybubble: runGitHub("GraphMed", "PengBingming", subdir = "enrich/pathwaybub
 3、Clinic
 >anova: runGitHub("GraphMed", "PengBingming", subdir = "clinic/anova")  
 lm: runGitHub("GraphMed", "PengBingming", subdir = "clinic/lm")  
-logistics: runGitHub("GraphMed", "PengBingming", subdir = "clinic/logistics")
+logistics: runGitHub("GraphMed", "PengBingming", subdir = "clinic/logistics")  
 forestplot: runGitHub("GraphMed", "PengBingming", subdir = "clinic/forestplot")  
 mutliroc: runGitHub("GraphMed", "PengBingming", subdir = "clinic/mutliroc")  
 surv: runGitHub("GraphMed", "PengBingming", subdir = "clinic/surv")  
