@@ -43,7 +43,7 @@ forestplot: runGitHub("GraphMed", "PengBingming", subdir = "clinic/forestplot")
 mutliroc: runGitHub("GraphMed", "PengBingming", subdir = "clinic/mutliroc")  
 surv: runGitHub("GraphMed", "PengBingming", subdir = "clinic/surv")  
 rose: runGitHub("GraphMed", "PengBingming", subdir = "clinic/rose")  
-map: runGitHub("GraphMed", "PengBingming", subdir = "clinic/map")
+map: runGitHub("GraphMed", "PengBingming", subdir = "clinic/map")  
 provincemap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/provincemap")  
 worldmap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/worldmap")  
 
