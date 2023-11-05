@@ -32,6 +32,7 @@ or
 
 2、Run a Shiny application from a URL:  
 library(shiny)
+runGitHub("GraphMed", "PengBingming", subdir = "...path/")  
 
 1、RNA-seq: 
 >deseq2: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/deseq2")  
