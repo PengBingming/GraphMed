@@ -18,12 +18,15 @@ heatmap/heatmap.csv for heatmap
 
 If you were ready for needed packages, You may now run each shiny app with just one command in R:
 
-download the GraphMed files from github  
+1、Run a Shiny application from a URL：  
+download the GraphMed files from github to location.  
+
 library("shiny")  
 runApp("...path/app")
 
 or  
 
+2、Run a Shiny application from a URL:  
 library(shiny)
 
 1、RNA-seq: 
