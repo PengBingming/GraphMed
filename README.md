@@ -37,14 +37,14 @@ pathwaybubble: runGitHub("GraphMed", "PengBingming", subdir = "enrich/pathwaybub
 
 3、Clinic
 >anova: runGitHub("GraphMed", "PengBingming", subdir = "clinic/anova")  
-forestplot: runGitHub("GraphMed", "PengBingming", subdir = "clinic/forestplot")  
 lm: runGitHub("GraphMed", "PengBingming", subdir = "clinic/lm")  
-logistics: runGitHub("GraphMed", "PengBingming", subdir = "clinic/logistics")  
-map: runGitHub("GraphMed", "PengBingming", subdir = "clinic/map")  
+logistics: runGitHub("GraphMed", "PengBingming", subdir = "clinic/logistics")
+forestplot: runGitHub("GraphMed", "PengBingming", subdir = "clinic/forestplot")  
 mutliroc: runGitHub("GraphMed", "PengBingming", subdir = "clinic/mutliroc")  
-provincemap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/provincemap")  
-rose: runGitHub("GraphMed", "PengBingming", subdir = "clinic/rose")  
 surv: runGitHub("GraphMed", "PengBingming", subdir = "clinic/surv")  
+rose: runGitHub("GraphMed", "PengBingming", subdir = "clinic/rose")  
+map: runGitHub("GraphMed", "PengBingming", subdir = "clinic/map")
+provincemap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/provincemap")  
 worldmap: runGitHub("GraphMed", "PengBingming", subdir = "clinic/worldmap")  
 
 4、Basic plot
