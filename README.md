@@ -18,6 +18,8 @@ heatmap/heatmap.csv for heatmap
 
 If you were ready for needed packages, You may now run each shiny app with just one command in R:
 
+library(shiny)
+
 1、RNA-seq: 
 >deseq2: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/deseq2")  
 limma: runGitHub("GraphMed", "PengBingming", subdir = "rnaseq/limma")  
