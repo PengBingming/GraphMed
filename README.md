@@ -18,7 +18,7 @@ heatmap/heatmap.csv for heatmap
 
 If you were ready for needed packages, You may now run each shiny app with just one command in R:
 
-1、Run a Shiny application from location：  
+1、Run a Shiny application locally：  
 download the GraphMed files from github to your own PC.  
 
 library("shiny")  
