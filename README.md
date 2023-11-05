@@ -33,7 +33,7 @@ heatmap: runApp("./rnaseq/heatmap/app")
 
 #### 2、Run each Shiny application from a URL:  
 
-library(shiny)
+library(shiny)  
 runGitHub("GraphMed", "PengBingming", subdir = "...path/")  
 
 1)、RNA-seq: 
